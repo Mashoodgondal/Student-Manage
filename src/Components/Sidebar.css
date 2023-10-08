@@ -1,0 +1,50 @@
+.sidebar {
+  background-color: #02abfa;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: rgb(253, 254, 255);
+}
+
+.side-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.side-menu a {
+  color: #444242;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.side-menu a:hover {
+  background-color: #638da0;
+}
+
+.active a {
+  background-color: #555;
+}
+/* .student {
+  color: rgb(2, 171, 250);
+} */
